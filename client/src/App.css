@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f6f1e9;
+}
+
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  font-size:18px;
+}
+h5{
+  font-size: 16px;
+}
+
+.PrimaryNavbar{
+  height: 100px;
+  background-color: #ff8400;
+  position: relative;
+  margin-top: -22px;
+}
+
+.Logo{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 70px;
+  margin-top: 40px;
+  left: 0;
+}
+
+.Logoheading{
+  position: absolute;
+  color: #f6f1e9;
+  padding-left: 130px;
+  top: 40px;
+}
+
+.Links{
+  position: absolute;
+  right: 70px;
+  justify-content: space-between;
+  display: flex;
+  top: 40px;
+  width: 400px;
+}
+
+.Links a{
+  color: #f6f1e9;
+  text-decoration: none;
+}
+
+.LandingPhoto{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 70px;
+  top:20%;
+}
+
+.LoginSection{
+  position: relative;
+  border-radius: 10px;  
+  width: 500px;
+  height: 500px;
+  margin-top: 5%;
+  margin-left: 63%;
+  background-color: #ff8400;
+}
+
+
+.LoginDetail{
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  width: 70%;
+}
+
+.SignUpInput{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4F200D;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;  
+  background-color: #f6f1e9;
+  padding-left: 10px ;
+  height: 50px;
+  outline-color: #4F200D;
+  margin-bottom: 50px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.btn{
+  font-weight: 600;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  margin-top: 350px;
+  border: 1px solid #4F200D;
+  border-radius: 10px;
+  background-color: #4F200D;
+  color:#f6f1e9;
+}
+
+.RegisterNowText{
+  color: #f6f1e9;
+  margin-top: 80px;
+  letter-spacing: 0.7px;
+}
+
+.RegisterNowText a{
+  color: #4F200D;
+  text-decoration: underline;
+}
